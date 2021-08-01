@@ -1,0 +1,21 @@
+{
+  "name": "spak-api",
+  "version": "1.0.0",
+  "description": "SPAK-API",
+  "scripts": {
+    "start": "nodemon node ./server.js"
+  },
+  "author": "Arun_Gowda_P",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7",
+    "rootpath": "^0.1.2"
+  }
+}
